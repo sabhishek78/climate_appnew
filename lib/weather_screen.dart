@@ -52,11 +52,7 @@ class _CityScreenState extends State<CityScreen> {
               FlatButton(
                 onPressed: () async {
                   try {
-                    // Position postion =await getLocation();
-
-                    //Map result=await fetchWeatherInfo(position);
-
-                    Navigator.push(
+                     Navigator.push(
                         (context),
                         MaterialPageRoute(
                             builder: (context) => LoadingScreen()));

@@ -23,7 +23,7 @@ class _LocationScreenState extends State<LocationScreen> {
   }
   @override
   Widget build(BuildContext context) {
-    widget.jsonData;
+
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
